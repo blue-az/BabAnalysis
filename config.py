@@ -7,8 +7,8 @@ class Config:
     """Configuration settings for the combined dashboard"""
     
     # Database paths
-    DB_PATH: Path = Path('/home/blueaz/Downloads/SensorDownload/Current/playpop_.db')
-    SHOT_DB_PATH: Path = Path('/home/blueaz/Downloads/SensorDownload/Current/BabPopExt.db')
+    DB_PATH: Path = Path('./playpop_.db')
+    SHOT_DB_PATH: Path = Path('./BabPopExt.db')
     
     # Time settings
     TIMEZONE: str = 'America/Phoenix'
